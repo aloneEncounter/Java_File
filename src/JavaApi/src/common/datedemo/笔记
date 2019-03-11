@@ -1,0 +1,9 @@
+
+Date date= new Date();  1900年一月一日算起
+
+
+Calendar t = Calendar.getInstance();
+System.out.println(t.getTime());         默认从 1970年一月一日算起
+
+
+

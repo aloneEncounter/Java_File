@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/JavaApi/JavaApi.iml" filepath="$PROJECT_DIR$/JavaApi/JavaApi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java_File.iml" filepath="$PROJECT_DIR$/Java_File.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOPDemo1/OOPDemo1.iml" filepath="$PROJECT_DIR$/OOPDemo1/OOPDemo1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PetMgr/PetMgr.iml" filepath="$PROJECT_DIR$/PetMgr/PetMgr.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestInherit/TestInherit.iml" filepath="$PROJECT_DIR$/TestInherit/TestInherit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOPDemo1/Vehicle.iml" filepath="$PROJECT_DIR$/OOPDemo1/Vehicle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VehicleMgr/VehicleMgr.iml" filepath="$PROJECT_DIR$/VehicleMgr/VehicleMgr.iml" />
+    </modules>
+  </component>
+</project>

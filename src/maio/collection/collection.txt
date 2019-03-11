@@ -1,0 +1,21 @@
+python:         java:
+1.list          List(接口)
+2.set           Set(接口)->SortedSet->NavigableSet
+3.dict          Map(接口)->SortedMap->NavigableMap
+4.Queue         Queue(接口)->Deque
+
+java的实现类：
+List常用的实现类有Vector、ArrayList、LinkedList、CopyOnWrtieArrayList。
+              其中Vector的子类有Stack
+Set常用的实现类：HashSet、TreeSet、CopyOnWrtieArraySet
+Map常用的实现类：Hashtable、HashMap、TreeMap
+
+List和Set的父接口是Collection
+
+Collections是集合的工具类
+
+集合中使用的迭代器：
+Enumeration
+Iterator->ListIterator
+
+

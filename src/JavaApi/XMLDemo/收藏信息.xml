@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PhoneInfo>
+    <Brand name="华为">
+        <Type name="U8650"/>
+        <!--<Type>woziani</Type>-->
+        <Type name="荣耀8"/>
+        <Type name="p10"/>
+        <Type name="p20"/>
+    </Brand>
+    <Brand name="苹果">
+        <Type name="iphone 6"/>
+        <Type name="iphone 6p"/>
+        <Type name="iphone 7"/>
+        <Type name="p20"/>
+    </Brand>
+
+</PhoneInfo>

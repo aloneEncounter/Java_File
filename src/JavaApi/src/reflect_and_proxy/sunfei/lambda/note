@@ -1,0 +1,15 @@
+
+Arrays.stream(arr).forEach(System.out::println)
+
+函数式设计语言Lisp
+
+Lambda  表面上传语句，实际上传对象
+
+  要有一个与之对应一个接口
+  Lambda 表达式所能做的只能转换为函数式接口
+  Lambda 表达式就是闭包的
+函数式接口：
+如果一个接口只有一个抽象方法，那么需要这个接口实现的地方 都可以使用Lambda
+
+方法的引用
+   所有方法引用都可以还原成一个lambda表达式

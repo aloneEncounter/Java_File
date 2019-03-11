@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+    <!--学生信息-->
+    <student id="s1">
+        <name>张三</name>
+        <age>18</age>
+
+    </student>
+    <!--<student id ="s1"/>-->
+    <student id="s2">
+        <name>李四</name>
+        <age>22</age>
+
+    </student>
+
+    <test>我们上面的标签包含了&lt;student&gt;&lt;/student&gt;</test>
+
+    <test>
+        <![CDATA[我们上面的标签包含了<student></student>]]>
+    </test>
+</students>

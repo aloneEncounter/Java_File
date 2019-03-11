@@ -1,0 +1,105 @@
+一 字节流
+字节输入流(读)
+        Inputstream
+                read()
+                read(byte[] b)
+                read(byte[] b,int off ,int len)
+                close()
+
+        FileInputStream
+                new  FileInputStream(File file)
+                new  FileInputStream(String path)
+
+字节输出流(写)
+        OutputStream
+                write(int )
+                write(byte[] b)
+                write(byte[] b,int off ,int len)
+                close()
+                flush() ：强制将缓冲区 清空
+
+        FileOutputStream
+                 new  FileOutoutStream(File file)
+                 new  FileOutputStream(String path)
+                 new  FileOutputStream(String path ,boolean append)  //可以制定覆盖或追加文本内容
+
+二 字符流
+
+汉字：
+  GBK GB2312 编码
+  UTF-8
+字符输入流（读）
+        Reader
+              read()
+              read(char[] b)
+              read(char[] b,int off ,int len)
+              close()
+
+        InputStreamReader   可以指定字符编码格式
+                new InputStreamReader(InputStream)
+                new InputStreamReader(InputStreama ,String charSetName)
+
+        FileReader
+            new FileReader(File file)
+            new FileReader(String path)
+
+常见问题 中文乱码
+       原因：文件编码格式  和  程序环境的编码格式不一致
+
+       解决方案：
+       字符流去读的时候，指定字符流的编码格式
+
+FileReader  无法指定编码格式，会按照文件 系统默认编码格式去读
+System.out.println(System.getProperty("file.encoding"));    // 获取文件系统的默认编码格式
+
+所以使用InputStreamReader
+
+
+缓冲流BufferedReader
+readLine()  按行读取
+
+
+
+
+字符输出流（写）
+        Writer    (抽象类)
+               writer(String)
+               close()
+               flush()  : 清空缓存
+
+        InputStreamWriter    可以指定字符编码格式
+               new InputStreamWriter(InputStream)
+               new InputStreamWriter(InputStreama ,String charSetName)
+
+
+
+        FileWriter  :以下两种构造，都可以重载，制定一个boolean类型的参数，用来指定追加还是覆盖文件内容
+                 new FileWriter(File file)
+                 new FileWriter(String path)
+
+
+
+        BufferedWriter :带缓冲区的输出流
+
+
+
+三 、二进制文件的读写
+
+DataInputStream
+DataOutputStream
+
+
+四、序列化和反序列化
+
+ObjectInputStream    反序列化  readObject()---->类型转换
+
+ObjectOutputStream   序列化   writeObject(Object);
+
+
+常见异常:
+NotSerializableException: 类没有实现Serializable接口，不可被序列化。
+
+transient 屏蔽某些敏感字段的序列化
+
+
+

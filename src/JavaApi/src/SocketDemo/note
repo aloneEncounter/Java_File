@@ -1,0 +1,14 @@
+
+
+ 礼物     -----    数据(字符串)
+
+ 包裹    ------    DatagramPackge
+
+
+ 快递点   ------   DatagramSocket
+
+
+ 寄礼物  ---   send()
+
+
+ 收礼物  ----  receive()
